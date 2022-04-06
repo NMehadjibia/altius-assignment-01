@@ -17,8 +17,9 @@ async function main(){
     });
     const inputsIterator = inputsReadLineStream[Symbol.asyncIterator]();
 
-    let testCases = [];
+    let testCases = []; // It will have this structur : Array[{ list1: SinglyLinkedListNode, list2: SinglyLinkedListNode}]
 
+    // Reading the test cases from the inputs file
     try{
         let list1SizeLine = await inputsIterator.next();
         
