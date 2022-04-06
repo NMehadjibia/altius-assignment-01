@@ -5,4 +5,3 @@
 2. Clone this repository on your computer
 3. Open the command line in the repository's folder and then run:
   > npm start
-
